@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Twitch Coin Collector",
-    "description": "A Chrome Extension to collect the channel points",
-    "version": "0.1",
+    "description": "A Chrome Extension to collect the twitch channel points automatically.",
+    "version": "0.1.0",
     "host_permissions": ["https://www.twitch.tv/*"],
     "action": {
         "default_icon": "icon.png",
