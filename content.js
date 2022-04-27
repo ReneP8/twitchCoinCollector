@@ -5,4 +5,4 @@ function goToActivityTab() {
         bonusButton.click();
     }
 }
-setInterval(goToActivityTab, 1000);
+setInterval(goToActivityTab, 60000);
