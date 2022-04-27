@@ -3,13 +3,12 @@
     "name": "Twitch Coin Collector",
     "description": "A Chrome Extension to collect the twitch channel points automatically.",
     "version": "0.1.0",
-    "host_permissions": ["https://www.twitch.tv/*"],
     "action": {
         "default_icon": "assets/coin_click_64.png",
         "default_popup": "popup.html"
     },
     "content_scripts": [{
-        "matches": ["https://www.twitch.tv/*"],
+        "matches": ["*://*.twitch.tv/*"],
         "js": ["content.js"]
     }]
 }
